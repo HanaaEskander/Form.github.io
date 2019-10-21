@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="mt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-m-12">
+                            <h1>Merhaba Hocam Salah </h1>
+                            <form  name="myForm" onsubmit="return validateForm()" method="post">
+                                <label class="left" for="">First & Last Name</label>
+                                <input type="text" name="name" placeholder="First Name" ><br>
+                                     <span class="error" id="nameErr"></span>
+                                <label for="">Email</label>
+                                <input type="email" name="email" placeholder="Email Address"><br>
+                                <span class="error" id="emailErr"></span>
+                                <label for="">Age</label>
+                                <input type="text" name="age" placeholder="Be Honest"><br>
+                                <span class="error" id="ageErr"></span>
+                                <label for="">Mobile Number</label>
+                                <input type="text" name="mobile" placeholder="Cell-Phone Number"><br>
+                                <span class="error" id="mobileErr"></span>
+                                <label for=""></label>
+                                <input type="text" name="message" id="height" placeholder="Write Your Message Here"><br>
+                                <span class="error" id="messErr"></span>
+                                <label for=""></label>
+                                <input type="submit" name="Submit" value="Submit" id="Submit">
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>
